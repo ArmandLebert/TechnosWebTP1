@@ -1,0 +1,99 @@
+body{
+    margin: ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Fondargent.jpg);
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: grey;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  background-color: Black;
+  border-color: white;
+  text-align: center;
+}
+#footer{
+    color : white;
+    font-size : 15px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+#accueil{
+    margin-top: 150px;
+}
+
+#competences{
+    text-align: left;
+}
+
+img{
+    align-content: center;
+}
+
+h1{
+    margin-top : 150px;
+    color: black;
+  text-align: center;
+}
+
+h2{
+    color: black;
+         text-align: left;
+}
+
+h3
+{
+    color: darkslateblue;
+    margin-left: 20px;
+}
+
+h4{
+    font-size: 13px;
+    color : ;
+    margin-bottom: inherit
+}
+p{
+    font-size : 10px;
+    color: slategrey;
+    margin-top: inherit; 
+
+}
+form{
+    text-align: center;
+    margin-top: 150px;
+    color: black;
+    border-color: brown;
+    border-width: medium;
+}
+
+ul {
+    
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
